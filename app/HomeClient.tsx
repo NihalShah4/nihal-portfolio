@@ -298,15 +298,15 @@ export default function HomeClient({
 
               <ul className="panel-list">
                 <li>
-                  <ArrowRight size={14} />
+                  <ArrowRight size={16} />
                   Clear projects with outcomes and tech stack
                 </li>
                 <li>
-                  <span className="dot" />
+                  <ArrowRight size={16} />
                   Applied ML + data engineering work you can validate
                 </li>
                 <li>
-                  <span className="dot" />
+                  <ArrowRight size={16} />
                   Experience written in impact-first bullets
                 </li>
               </ul>
