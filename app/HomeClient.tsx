@@ -541,13 +541,7 @@ export default function HomeClient({
               </div>
             </div>
 
-            <div className="card">
-              <div className="card-title">Quick note</div>
-              <p className="muted">
-                If you’re hiring for data engineering, analytics, or applied ML
-                roles, I’m happy to share a short walkthrough of the most
-                relevant projects and impact.
-              </p>
+            
 
               <div className="mt">
                 <a
