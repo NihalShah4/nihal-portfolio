@@ -539,19 +539,8 @@ export default function HomeClient({
                   Resume <ArrowRight size={18} />
                 </a>
               </div>
-            </div>
+            </div>           
 
-            
-
-              <div className="mt">
-                <a
-                  className="btn btn-primary"
-                  href="mailto:nihalshah4@gmail.com?subject=Portfolio%20Inquiry"
-                >
-                  Email me <ArrowRight size={18} />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
