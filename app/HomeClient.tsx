@@ -93,12 +93,12 @@ export default function HomeClient({
       location: "Remote",
       dates: "Jul 2025 – Present",
       bullets: [
-        "Lead data-driven analysis of client-side business and operational data to identify patterns, inefficiencies, and AI automation opportunities."
-        "Design and deliver analytical insights using Python, SQL, Power BI, and Tableau to support executive decision-making and client strategy discussions."
-        "Develop exploratory data analyses and KPI frameworks to evaluate customer behavior, funnel performance, and operational metrics."
-        "Collaborate directly with clients to translate business questions into structured data problems and analytical workflows."
-        "Support AI-driven initiatives by identifying use cases for automation, predictive analytics, and NLP-based reporting across client engagements."
-        "Partner with engineering teams to define data requirements, validate outputs, and ensure analytical solutions align with business objectives."
+        "Lead data-driven analysis of client-side business and operational data to identify patterns, inefficiencies, and AI automation opportunities.",
+        "Design and deliver analytical insights using Python, SQL, Power BI, and Tableau to support executive decision-making and client strategy discussions.",
+        "Develop exploratory data analyses and KPI frameworks to evaluate customer behavior, funnel performance, and operational metrics.",
+        "Collaborate directly with clients to translate business questions into structured data problems and analytical workflows.",
+        "Support AI-driven initiatives by identifying use cases for automation, predictive analytics, and NLP-based reporting across client engagements.",
+        "Partner with engineering teams to define data requirements, validate outputs, and ensure analytical solutions align with business objectives.",
         "Present insight summaries, dashboards, and recommendations to leadership, bridging technical findings with business impact.",
       ],
     },
@@ -108,9 +108,9 @@ export default function HomeClient({
       location: "Madison, NJ",
       dates: "Jan 2025 – May 2025",
       bullets: [
-        "Integrated OpenAI GPT-4o with enterprise systems to enable natural language access to institutional data."
-        "Improved data retrieval efficiency by approximately 25 percent through AI-assisted query workflows."
-        "Led cleanup and validation of over 3,400 reports, improving data quality and reducing redundancy by 30 percent."
+        "Integrated OpenAI GPT-4o with enterprise systems to enable natural language access to institutional data.",
+        "Improved data retrieval efficiency by approximately 25 percent through AI-assisted query workflows.",
+        "Led cleanup and validation of over 3,400 reports, improving data quality and reducing redundancy by 30 percent.",
         "Developed cross-departmental data mappings and technical documentation to support long-term maintainability.",
       ],
     },
@@ -120,10 +120,10 @@ export default function HomeClient({
       location: "Chennai, India",
       dates: "Mar 2022 – Dec 2023",
       bullets: [
-        "Led a team of five analysts while continuing hands-on analytics and reporting responsibilities."
-        "Designed and implemented SOPs for analytics workflows, improving operational efficiency by 20 percent."
-        "Coordinated root cause analysis across multiple cross-functional teams, reducing system downtime by 30 percent."
-        "Oversaw development of automated alerting and task workflows to minimize manual intervention."
+        "Led a team of five analysts while continuing hands-on analytics and reporting responsibilities.",
+        "Designed and implemented SOPs for analytics workflows, improving operational efficiency by 20 percent.",
+        "Coordinated root cause analysis across multiple cross-functional teams, reducing system downtime by 30 percent.",
+        "Oversaw development of automated alerting and task workflows to minimize manual intervention.",
         "Built and maintained centralized documentation in Confluence to support onboarding and process standardization.",
       ],
     },
@@ -133,10 +133,10 @@ export default function HomeClient({
       location: "Chennai, India",
       dates: "Sep 2018 – Mar 2022",
       bullets: [
-        "Performed claims data analysis, data corrections, and reporting using SQL, XML, and enterprise data systems."
-        "Supported release validation, defect triage, and deployment planning while maintaining 99.9 percent uptime."
-        "Delivered high-priority ad hoc reports and analytics to support business operations and decision-making."
-        "Collaborated with business teams to streamline workflows and reduce service disruptions by 30 percent."
+        "Performed claims data analysis, data corrections, and reporting using SQL, XML, and enterprise data systems.",
+        "Supported release validation, defect triage, and deployment planning while maintaining 99.9 percent uptime.",
+        "Delivered high-priority ad hoc reports and analytics to support business operations and decision-making.",
+        "Collaborated with business teams to streamline workflows and reduce service disruptions by 30 percent.",
         "Built foundational expertise in claims processing, enterprise data systems, and operational analytics.",
       ],
     },
