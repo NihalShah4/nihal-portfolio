@@ -46,50 +46,28 @@ export default function HomeClient({
   // DS-focused, categorized skills (from your DS resume, cleaned up)
   const skillGroups: Array<{ title: string; items: string[] }> = [
     {
-      title: "Programming & Querying",
-      items: ["Python", "SQL", "R", "Java"],
+      title: "Programming & Analytics",
+      items: ["Python", "SQL", "R", "Excel", "Statistical Analysis", "Regression", "Feature Engineering", "Data Cleaning"],
     },
     {
-      title: "Databases",
-      items: ["Oracle 19c", "Snowflake", "MySQL", "Redshift", "DB2"],
+      title: "Databases & Data Systems",
+      items: ["Oracle 19c", "PL/SQL", "Sybase", "DB2", "Data Modeling"],
     },
     {
-      title: "Data Engineering & APIs",
-      items: [
-        "ETL/ELT pipelines",
-        "Data modeling",
-        "Scheduled ingestion",
-        "Data validation",
-        "FastAPI",
-        "REST APIs",
-      ],
+      title: "Data Visualization & BI",
+      items: ["Power BI", "Tableau", "Dashboard Design", "Executive Reporting"],
     },
     {
-      title: "Machine Learning & NLP",
-      items: [
-        "Classification models",
-        "Forecasting",
-        "Rule-based systems",
-        "Text preprocessing",
-        "Relevance scoring",
-        "Summarization pipelines",
-        "LLM-assisted workflows",
-      ],
+      title: "Machine Learning & AI",
+      items: ["Supervised Learning", "Logistic Regression", "LDA", "KNN", "Ridge", "Lasso", "NLP", "LLM Integration", "Model Evaluation"],
     },
     {
-      title: "Analytics & BI",
-      items: ["Tableau", "Power BI", "KPI dashboards", "Operational analytics"],
+      title: "Frameworks & Platforms",
+      items: ["FastAPI", "Oracle APEX", "Streamlit", "GitHub", "Jenkins", "JIRA", "Confluence", "ServiceNow", "Splunk", "Salesforce"],
     },
     {
-      title: "Platforms & Tools",
-      items: [
-        "AWS (EC2, S3, Lambda, Glue)",
-        "Git",
-        "JIRA",
-        "Confluence",
-        "Splunk",
-        "ServiceNow",
-      ],
+      title: "Professional Strengths",
+      items: ["Stakeholder Management", "Process Optimization", "RCA", "Cross-functional Collaboration", "Team Leadership"],
     },
     {
       title: "Domain Strength",
@@ -110,49 +88,56 @@ export default function HomeClient({
     bullets: string[];
   }> = [
     {
-      title: "Data Engineer",
+      title: "Senior Data Analyst – AI Initiatives",
       company: "AA2IT",
       location: "Remote",
       dates: "Jul 2025 – Present",
       bullets: [
-        "Built cloud-ready data pipelines using Python, SQL, and AWS (Lambda, S3, Glue) to unify CRM, sales, finance, and marketing datasets; reduced manual reporting effort by ~40%.",
-        "Designed executive dashboards in Tableau and Power BI for revenue, cashflow, margin, churn, and retention KPIs to improve leadership visibility and decision-making.",
-        "Automated recurring BI workflows via scheduled ETL scripts and API integrations, improving reporting reliability and reducing cycle time for weekly and monthly reporting.",
-        "Partnered with cross-functional stakeholders to translate business requirements into scalable data products and KPI frameworks.",
+        "Lead data-driven analysis of client-side business and operational data to identify patterns, inefficiencies, and AI automation opportunities."
+        "Design and deliver analytical insights using Python, SQL, Power BI, and Tableau to support executive decision-making and client strategy discussions."
+        "Develop exploratory data analyses and KPI frameworks to evaluate customer behavior, funnel performance, and operational metrics."
+        "Collaborate directly with clients to translate business questions into structured data problems and analytical workflows."
+        "Support AI-driven initiatives by identifying use cases for automation, predictive analytics, and NLP-based reporting across client engagements."
+        "Partner with engineering teams to define data requirements, validate outputs, and ensure analytical solutions align with business objectives."
+        "Present insight summaries, dashboards, and recommendations to leadership, bridging technical findings with business impact.",
       ],
     },
     {
-      title: "AI Integration Engineer",
+      title: "AI Integration Intern",
       company: "CampusWorks",
       location: "Madison, NJ",
       dates: "Jan 2025 – May 2025",
       bullets: [
-        "Built an AI-powered Natural Language to SQL analytics platform enabling non-technical users to query financial and operational data with secure, structured outputs.",
-        "Implemented backend safeguards for query validation, execution safety, and consistent output formatting for auditability and controlled access.",
-        "Delivered a clean analytics workflow that shortened time-to-insight for data requests and improved adoption for non-SQL users.",
+        "Integrated OpenAI GPT-4o with enterprise systems to enable natural language access to institutional data."
+        "Improved data retrieval efficiency by approximately 25 percent through AI-assisted query workflows."
+        "Led cleanup and validation of over 3,400 reports, improving data quality and reducing redundancy by 30 percent."
+        "Developed cross-departmental data mappings and technical documentation to support long-term maintainability.",
       ],
     },
     {
-      title: "Senior Data Analyst (Client: AIG)",
+      title: "Senior Data Analyst",
       company: "Cognizant",
       location: "Chennai, India",
       dates: "Mar 2022 – Dec 2023",
       bullets: [
-        "Led analytics and monitoring for claims and payment workflows, focusing on exception queues, payment failures, and audit-log anomalies.",
-        "Built automated Splunk + SQL alerting for abnormal transaction spikes, repeated reprocessing patterns, and settlement delays; reduced incident downtime by ~30%.",
-        "Strengthened RCA processes by documenting workflows, approval paths, and operational risk points; improved control visibility for stakeholders.",
-        "Partnered with engineering and QA to validate releases impacting transaction integrity and reporting consistency.",
+        "Led a team of five analysts while continuing hands-on analytics and reporting responsibilities."
+        "Designed and implemented SOPs for analytics workflows, improving operational efficiency by 20 percent."
+        "Coordinated root cause analysis across multiple cross-functional teams, reducing system downtime by 30 percent."
+        "Oversaw development of automated alerting and task workflows to minimize manual intervention."
+        "Built and maintained centralized documentation in Confluence to support onboarding and process standardization.",
       ],
     },
     {
-      title: "Data Analyst (Client: AIG)",
+      title: "Data Analyst",
       company: "Cognizant",
       location: "Chennai, India",
       dates: "Sep 2018 – Mar 2022",
       bullets: [
-        "Supported daily monitoring of payment exceptions, delayed settlements, claim-to-payment mismatches, and ledger posting issues.",
-        "Used SQL-based analysis to diagnose irregular transaction behavior, validate fixes, and reduce discrepancies in high-value transaction logs.",
-        "Built repeatable ETL and data validation processes to improve consistency across downstream reports and operational dashboards.",
+        "Performed claims data analysis, data corrections, and reporting using SQL, XML, and enterprise data systems."
+        "Supported release validation, defect triage, and deployment planning while maintaining 99.9 percent uptime."
+        "Delivered high-priority ad hoc reports and analytics to support business operations and decision-making."
+        "Collaborated with business teams to streamline workflows and reduce service disruptions by 30 percent."
+        "Built foundational expertise in claims processing, enterprise data systems, and operational analytics.",
       ],
     },
   ];
@@ -270,10 +255,12 @@ export default function HomeClient({
             <h1 className="hero-title">
               Hi, I’m Nihal.
               <span className="hero-sub">
-                Data professional with 6+ years of experience building analytics
-                and ML-driven workflows across insurance and enterprise systems.
-                Strong in Python, SQL, cloud-ready pipelines, and turning messy
-                data into decision-ready products.
+                Applied AI and Analytics professional with 6+ years of experience 
+                building data-driven and AI-enabled systems across financial services 
+                and technology environments. Hands-on experience designing NLP- and 
+                LLM-powered solutions, analytics pipelines, and decision-support platforms. 
+                Strong background in analytics leadership, stakeholder collaboration, 
+                and translating business problems into scalable, production-ready AI solutions.
               </span>
             </h1>
 
@@ -449,9 +436,6 @@ export default function HomeClient({
         <div className="container-page">
           <div className="section-head">
             <h2 className="section-title">Projects</h2>
-            <p className="section-sub">
-              Featured (names only) + 4 selected projects with outcomes.
-            </p>
           </div>
 
           {/* featured names only */}
