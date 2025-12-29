@@ -332,10 +332,6 @@ export default function HomeClient({
         <div className="container-page">
           <div className="section-head">
             <h2 className="section-title">Skills</h2>
-            <p className="section-sub">
-              Grouped for quick scanning. Built to match data engineering and
-              applied ML roles.
-            </p>
           </div>
 
           <div className="grid-2">
@@ -360,9 +356,6 @@ export default function HomeClient({
         <div className="container-page">
           <div className="section-head">
             <h2 className="section-title">Experience</h2>
-            <p className="section-sub">
-              Impact-driven bullets with tools and business context.
-            </p>
           </div>
 
           <div className="stack">
@@ -398,7 +391,6 @@ export default function HomeClient({
         <div className="container-page">
           <div className="section-head">
             <h2 className="section-title">Education</h2>
-            <p className="section-sub">Grad + undergrad, simple and verifiable.</p>
           </div>
 
           <div className="grid-2">
@@ -496,7 +488,6 @@ export default function HomeClient({
         <div className="container-page">
           <div className="section-head">
             <h2 className="section-title">Contact</h2>
-            <p className="section-sub">Simple and direct.</p>
           </div>
 
           <div className="grid-2">
