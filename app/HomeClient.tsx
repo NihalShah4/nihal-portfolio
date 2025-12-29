@@ -298,7 +298,7 @@ export default function HomeClient({
 
               <ul className="panel-list">
                 <li>
-                  <span className="dot" />
+                  <ArrowRight size={14} />
                   Clear projects with outcomes and tech stack
                 </li>
                 <li>
